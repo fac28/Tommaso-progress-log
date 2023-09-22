@@ -6,8 +6,11 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
 ## Assessment
  ### 1. Show evidence of a learning outcome you have achieved this week.
-> **[Learning outcome...]**  
-> [your evidence here]
+ #### Server:
+> **Understand when to install a Dependency as a Dev Dependency**  
+> These are dependencies that are used during the development and testing phases of a project but are not required for the application to run in a production environment. They include tools, libraries, and utilities that help with tasks such as testing, code linting, code formatting, and development-related workflows.
+> Navigate to the project directory, run (we' re using Eslint for this example)
+> ``npm install eslint --save-dev``
 
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
 > [**Learning outcome...**]  
