@@ -5,16 +5,29 @@ Make sure to record evidence of your processes. You can use code snippets, scree
 Do not fill in the feedback section. The Founders and Coders team will update this with feedback on your progress.
 
 ## Assessment
- ### 1. Show evidence of a learning outcome you have achieved this week.
- #### Server:
- **Understand when to install a Dependency as a Dev Dependency**  
- These are dependencies that are used during the development and testing phases of a project but are not required for the application to run in a production environment. They include tools, libraries, and utilities that help with tasks such as testing, code linting, code formatting, and development-related workflows.
-<ol> 
- <li>Navigate to the project directory, run the installation command (we' re using Eslint for this example): 
-    > ``npm install eslint --save-dev``</li>
-<li> This command tells npm to install ESLint and add it to the devDependencies section of your project's package.json file.</li>
-<li> Create ESLint Configuration (Optional):</li>
-<li> ``npx eslint --init``</li>
+### 1. Show evidence of a learning outcome you have achieved this week.
+#### Server:
+**Understand when to install a Dependency as a Dev Dependency**
+
+These are dependencies that are used during the development and testing phases of a project but are not required for the application to run in a production environment. They include tools, libraries, and utilities that help with tasks such as testing, code linting, code formatting, and development-related workflows.
+
+<ol>
+  <li>Navigate to the project directory, run the installation command (we're using ESLint for this example):
+
+  > ```bash
+  > npm install eslint --save-dev
+  > ```
+  </li>
+  
+  <li>This command tells npm to install ESLint and add it to the `devDependencies` section of your project's `package.json` file.</li>
+  
+  <li>Create ESLint Configuration (Optional):
+
+  > ```bash
+  > npx eslint --init
+  > ```
+  </li>
+</ol>
 
 
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
