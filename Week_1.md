@@ -29,6 +29,30 @@ These are dependencies that are used during the development and testing phases o
   </li>
 </ol>
 
+**Create package.json scripts that run our tests**
+
+Adding scripts to package.json simplifies task execution, improves consistency, automates workflows, and enhances collaboration in Node.js projects, streamlining development and ensuring reliable operations.
+
+<ol>
+  <li>Open your `package.json` file.</li>
+  <li>Inside the "scripts" section, add a new script entry for running your test. You can name it something like "test" and specify the test command.
+    
+    > ```json
+    > "scripts": {
+    >   "test": "node your-test-command.test.js"
+    > }
+    > ```
+
+  </li>
+  <li>Now, you can run the test by executing the following command in your terminal.
+
+    > ```bash
+    > npm test
+    > ```
+
+  </li>
+</ol>
+
 
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
 > [**Learning outcome...**]  
