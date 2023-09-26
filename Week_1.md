@@ -59,6 +59,11 @@ Adding scripts to package.json simplifies task execution, improves consistency, 
 > [your evidence here]
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+### Alphonso's feedback: 
+#### *What went well*
+Great learning to focus on early on! Your explanation of the role of Dev Dependencies is spot on and following a step by step approach is definitely the way to go with documentation.
+
+#### *Even better if*
+Try to focus these logs on the *why* of concepts and the *how* of your learning. So in this case it would be useful to see the same approach you've taken (giving a few examples with code snippets) applied to showing use cases of these dependencies streamlining the development process. For example, a code snippet from your project showing the test.js script and a screengrab of the command line output of your tests.
+
+Remember you can edit this file throughout the week, so maybe you'll find it useful to just through a snippet of code you're struggling with when it comes up for coming weeks and then returning to flesh out the document on the Friday. Documenting your struggles accurately can really turn the tide on your End Point Assessment and it will be at least as valuable as any other kind of documentation in future Developer roles.
