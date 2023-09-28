@@ -6,8 +6,8 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
 ## Assessment
  ### 1. Show evidence of a learning outcome you have achieved this week.
-> **[Learning outcome...]**  
-> [your evidence here]
+ **Design and document a database schema**  
+> <img src="https://github.com/fac28/db-issy-tess-tommaso-james/blob/dev-branch/public/schema.png"></img>
 
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
 > [**Learning outcome...**]  
