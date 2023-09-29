@@ -9,6 +9,27 @@ Do not fill in the feedback section. The Founders and Coders team will update th
  **Design and document a database schema**  
 > <img src="https://github.com/fac28/db-issy-tess-tommaso-james/blob/dev-branch/public/schema.png"></img>
 
+**Normalize data to reduce duplication**
+<p>By using the <strong>UNIQUE</strong> constraint we can make sure that the name of the cuisine and of the location will be inserted only once in the db</p>
+
+```
+CREATE TABLE IF NOT EXISTS cuisine (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT UNIQUE NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS location (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT,
+    street TEXT,
+    postcode TEXT,
+    UNIQUE(name, street, postcode)
+);
+```
+
+
+
+
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
 > [**Learning outcome...**]  
 > [your evidence here]
