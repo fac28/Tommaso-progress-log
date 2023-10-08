@@ -160,6 +160,19 @@ Example from my project:</p>
 > `);
 > ```
 >
+
+**Update on JOIN:**
+-	Choose the correct JOIN clause to select all the records from the Customers table plus all the matches in the Orders table.
+
+
+> ```
+> SELECT *
+> FROM Orders
+> RIGHT JOIN Customers
+> ON Orders.CustomerID=Customers.CustomerID;
+> ```
+
+When you use a RIGHT JOIN, the table listed on the right side of the RIGHT JOIN keyword is the "right" table, and the one on the left side is the "left" table. The result will include all records from the right table and the matching records from the left table
  
 ## Feedback
 ### Alphonso's Feedback  
@@ -169,7 +182,7 @@ Great detail in your first answer - particularly adding an explanation of the ``
 Having the schema to actually look at is also good but maybe a short explanation of the tables and the purpose of this database would be the ideal extra mile
 
 #### Even better if
-```JOIN```s are a weird one to wrap your head around at first but the different kinds all follow pretty much the same syntax and once you start to think of them as simple **vern diagrams** it all becomes much simpler.
+```JOIN```s are a weird one to wrap your head around at first but the different kinds all follow pretty much the same syntax and once you start to think of them as simple **venn diagrams** it all becomes much simpler.
 
 ![sql JOINS represented as Vern Diagrams](https://miro.medium.com/v2/resize:fit:1400/0*rFMChX4SAmQ9RzF9.png)
 The only thing you really need to consider when applying a JOIN is these two questions:
@@ -183,3 +196,5 @@ JOIN left_table /*name your JOIN. Here 'JOIN' assumes an INNER JOIN*/
 ON right_table.column = left_table.column /*I called them 'left' and 'right' tables to match the diagrams above*/
 ```
 Maybe try your hand at some on week 3's project or review your models with whomever is assigned those tickets (maybe allow some time to actually pair program on them). There are also some basic exercises to review this on this link [here](https://www.w3schools.com/sql/exercise.asp?filename=exercise_join1) which you might find helpful.
+
+
