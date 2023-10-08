@@ -37,18 +37,18 @@ Adding scripts to package.json simplifies task execution, improves consistency, 
   <li>Open your `package.json` file.</li>
   <li>Inside the "scripts" section, add a new script entry for running your test. You can name it something like "test" and specify the test command.
     
-    > ```json
-    > "scripts": {
-    >   "test": "node your-test-command.test.js"
-    > }
-    > ```
-
+   > ```bash
+   > "scripts": {
+   >   "test": "node your-test-command.test.js"
+   > }
+   > ```
+    
   </li>
   <li>Now, you can run the test by executing the following command in your terminal.
 
-    > ```bash
-    > npm test
-    > ```
+   > ```bash
+   > npm test
+   > ```
 
   </li>
 </ol>
@@ -67,3 +67,6 @@ Great learning to focus on early on! Your explanation of the role of Dev Depende
 Try to focus these logs on the *why* of concepts and the *how* of your learning. So in this case it would be useful to see the same approach you've taken (giving a few examples with code snippets) applied to showing use cases of these dependencies streamlining the development process. For example, a code snippet from your project showing the test.js script and a screengrab of the command line output of your tests.
 
 Remember you can edit this file throughout the week, so maybe you'll find it useful to just through a snippet of code you're struggling with when it comes up for coming weeks and then returning to flesh out the document on the Friday. Documenting your struggles accurately can really turn the tide on your End Point Assessment and it will be at least as valuable as any other kind of documentation in future Developer roles.
+
+
+Thanks Alphonso!
