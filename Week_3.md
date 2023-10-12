@@ -79,6 +79,11 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 > [your evidence here]
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+> Beth
+
+> Your explanation and utilisation of route handling and middleware setup in Express.js is organised and thorough 👌
+
+> To level up your middleware, you might want to consider implementing error handling.
+Read more here: [expressjs.com](https://expressjs.com/en/guide/error-handling.html)
+Your ESLint configuration looks good. Consider discussing or demonstrating how you deal with linting errors or warnings when they arise. Do you fix them immediately? Do you adjust rules in your configuration based on the team's coding style?
+
