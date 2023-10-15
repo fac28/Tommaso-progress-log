@@ -77,8 +77,8 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
    
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
-> [**Learning outcome...**]  
-> [your evidence here]
+> **Deployment**] 
+> I haven't had a DevOps role yet, so I don' t really know anything about deployment on fly.io (or other platforms really).I guess I'll look more into it next week for the next project!
 
 ## Feedback
 > [**Course Facilitator name**]  
