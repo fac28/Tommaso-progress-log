@@ -81,6 +81,9 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 > I haven't had a DevOps role yet, so I don' t really know anything about deployment on fly.io (or other platforms really).I guess I'll look more into it next week for the next project!
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+### Alphonso's feedback
+#### What Went Well
+Your explanation of the use of multer is really detailed - nice going for a portfolio. It's a good idea to keep in mind the reasoning for your decisions in the code (i.e.: your point on the set up of the multer 'storage' object)
+
+#### Even Better If
+We'll definitely want to make sure you get on a devOps role in one of the upcoming projects. Try to make use of the fact that you are sure to have colleagues in your team who have done it to receive a handover and some mentoring from.
