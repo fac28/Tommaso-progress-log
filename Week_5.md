@@ -9,7 +9,7 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 **Use JSX to create DOM elements**  
 > <img src="https://github.com/fac28/Tommaso-progress-log/assets/63957194/c615171d-e04c-4935-b9af-acb0962262b6" alt="Screenshot component" width="500">
  
-  Here we create a component called PlayerBoard that renders a 2d grid
+  Here we create a component called PlayerBoard that renders a 2d grid based on an array we passed as props (<strong>board</strong>) 
 
 **Use component state to manage DOM updates**
 > <img src="https://github.com/fac28/Tommaso-progress-log/assets/63957194/dc4bb182-1d5f-46ac-a10a-3a158a7863d4" alt="Screenshot change State" width="500">
