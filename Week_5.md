@@ -39,6 +39,8 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 > The fact we used a generated array that way is quite confusing to be honest.I also find the whole React concept still not easy to fully understand. Having only 2 days to complete the project made us rush a lot, I' m pretty sure there is a better way to structure and write the whole app in terms of components and logic behind it
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+> Beth
+
+> You have correctly implemented the useState hook to manage the playerBoard state in your component, and you've done a great job of explaining why it's important to create a shallow copy of the array when updating state (nice use of the spread operator) 😎
+
+> Here is some more info on cloning an Object in Javascript: [Shallow Copy vs. Deep Copy](https://medium.com/version-1/cloning-an-object-in-javascript-shallow-copy-vs-deep-copy-fa8acd6681e9#:~:text=There%20are%20two%20ways%20to,of%20the%20object%20are%20copied.)
