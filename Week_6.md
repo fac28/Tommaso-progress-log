@@ -6,24 +6,25 @@ Do not fill in the feedback section. The Founders and Coders team will update th
 
 ## Assessment
  ### 1. Show evidence of a learning outcome you have achieved this week.
-> **Dynamic Routing with Next.js**
+**Dynamic Routing with Next.js**
  
-You can change routes dynamically based on user interactions. Here's how it works based on the following snippet:
-
-> 
+You can change routes dynamically based on user interactions. Here's how it works based on the following snippets:
+ 
 
 ## File Structure
 
 The file structure is designed to enable dynamic routing based on file and folder names. Here's a breakdown of the key files and folders:
 
-- `LISTINGS/page.js`: This file represents the main listings page, displaying a list of items.
-
-- `LISTING/[ID]/page.js`: This file uses square brackets `[ID]` to create a dynamic route. It can match any value in the URL as an `ID` parameter. For example, accessing `/LISTING/123` will match `123` as the `ID` parameter. This dynamic value can be accessed in your code.
+- `LISTINGS/page.js`: This file represents the main listings page, displaying a list of items that we pass as props to the FilterAndDisplay component.
 
 
-### Listings Page
+> <img src="https://github.com/fac28/Tommaso-progress-log/assets/63957194/ba7cd5f8-628d-458d-bdfb-d79afe637778" alt="Screenshot Listing" width="700">
 
-In the `LISTINGS/page.js` file, a list of items is displayed. Each item likely has a link to its individual details page. To navigate to the dynamic route, use Next.js's `Link` component.
+
+- `COMPONENTS/FilterAndDisplay.jsx`: Here we display these items using a mapping function.
+Each item gets wrapped into a Link component (line 31), which enables navigation to a dynamic route.
+
+> <img src="https://github.com/fac28/Tommaso-progress-log/assets/63957194/bf2cee91-a7db-46bb-aa3a-4190cb1c0b7f" alt="Screenshot Listing" width="1100">
 
 ```jsx
 <Link href={`/LISTING/${item.id}`}>
@@ -31,19 +32,19 @@ In the `LISTINGS/page.js` file, a list of items is displayed. Each item likely h
 </Link>
 ```
 
-Product Details Page
-In the LISTING/[ID]/page.js file, you retrieve the dynamic parameter, typically named id. This parameter corresponds to the value extracted from the URL. You can use this value to fetch and display the details of the specific product with that ID.
+- `LISTING/[ID]/page.js`: In this file we retrieve the dynamic parameter (extracted from the URL) params.id using React's props and we display that specific image
 
-jsx
-Copy code
-const id = params.id
-const product = getProductById(id)
-By following this structure and using Next.js's dynamic routing capabilities, you can change routes based on user interactions. When a user clicks on a product in the listings, they are taken to the dynamic [ID] route, and the specific product details are displayed.
+> <img src="https://github.com/fac28/Tommaso-progress-log/assets/63957194/40bf8188-62d3-4137-be01-ac67421a906a" alt="Screenshot Listing" width="700">
+
 
 
  ### 2. Show an example of a learning outcome you have struggled with and/or would like to re-visit.
-> [**Learning outcome...**]  
-> [your evidence here]
+**Hooks**
+
+> <img src="https://github.com/fac28/Tommaso-progress-log/assets/63957194/61f3f3d4-58d4-482d-8315-82644bac9b8d" alt="Screenshot hooks" width="700">
+
+In this project I focused only on deployment unfortunately, so I didn' t contribute at all to the rest.
+Therefore hooks such as <strong>useContext</strong>, <strong>createContext</strong> and <strong>useReducer</strong> are still stranger to me
 
 ## Feedback
 > [**Course Facilitator name**]  
