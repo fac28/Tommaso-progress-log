@@ -47,6 +47,9 @@ In this project I focused only on deployment unfortunately, so I didn' t contrib
 Therefore hooks such as <strong>useContext</strong>, <strong>createContext</strong> and <strong>useReducer</strong> are still stranger to me
 
 ## Feedback
-> [**Course Facilitator name**]  
-> [*What went well*]  
-> [*Even better if*]
+### Alphonso's feedback
+#### What Went Well
+That is a really detailed walk through of dynamic routes! The abstraction in Next means that dynamic routes can look a little like black magic, but you've stripped down their basic workings here pretty well.
+
+#### Even Better If
+You'd probably find it really useful to narrow down your focus a bit and start off by spiking `useEffect()` a bit. Hooks come in all shapes and there are always new custome ones being made but `useEffect()` gives you all the basic syntax and will force you to think of scope in a particular way. Once you've got that down you'll see that any hook is much the same tool but perfected for a dedicated use.
